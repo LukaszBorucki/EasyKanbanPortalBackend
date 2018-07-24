@@ -1,0 +1,11 @@
+server:
+  port: 8077
+
+spring:
+  datasource:
+    url: jdbc:mysql://22276.m.tld.pl/baza76_sienn_post_it?useSSL=false
+    username: admin76_sienn_post_it
+    password: password
+  jpa:
+    generate-dll: true
+    hibernate.dll-auto: none
